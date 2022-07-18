@@ -161,8 +161,11 @@ img {
   }
 
   @media screen and (max-width: 580px){
-    .archive-item {
-        margin-bottom: 1rem;
+    // .archive-item {
+    //     margin-bottom: 1rem;
+    // }
+    .tags {
+      display: none;
     }
   }
 //   @media screen and (max-width: 580px) {
