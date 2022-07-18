@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% include masthead.html %}
+<div class="archive">
+  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
+  if currDate != date %}
+  <h4 class="archive-year">{{ currDate }}</h4>
+  {% assign date = currDate %} {% endif %}
+  <div class="archive-item">
+    <div class="archive-meta">
+      <span class="post-date archive-date">{{ post.date | date: "%b %d" }}</span>
+      {% for tag in post.tags %}
+      <span class="badge tags">{{ tag }}</span>
+      {% endfor %}
+  </div>
+    <a href="{{ post.url | relative_url }}" class="archive-title">{{ post.title }}</a>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,12 @@
+# - name: "#"
+#   link: /tags
+- name: Research
+  link: /research/
+- name: Bookshelf
+  link: /books/
+# - name: Art
+#   link: /art/
+# - name: Photos
+#   link: /photos/
+- name: About
+  link: /about/

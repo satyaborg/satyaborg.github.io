@@ -1,0 +1,175 @@
+table {
+  @extend .table;
+  @extend .table-striped;
+}
+
+blockquote {
+  @extend .blockquote;
+}
+
+img {
+  @extend .img-fluid;
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  border-bottom: 0.125rem solid hsl(0, 0%, 30%);
+}
+
+.archive-year {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.archive-date {
+  float: right;
+  margin-left: 1rem;
+}
+
+.archive-item {
+  margin-bottom: 0.5rem;
+  overflow: auto;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-icons {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.footer-icon-links {
+  text-decoration: none;
+  color: #212529;
+}
+
+.footer-icon-links:hover,
+.footer-icon-links:focus {
+  text-decoration: none;
+  color: #212529;
+}
+
+.archive-title {
+  color: #212529;
+}
+
+.highlight {
+  background-color: #272822;
+}
+
+pre.highlight {
+  padding: 1rem;
+}
+
+.dark-avatar {
+  display: none !important;
+}
+
+.light-avatar,
+.dark-avatar {
+  margin-right: 0.25rem !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-icon-links {
+    text-decoration: none;
+    color: #e1e1e1;
+  }
+
+  .footer-icon-links:hover,
+  .footer-icon-links:focus {
+    text-decoration: none;
+    color: #e1e1e1;
+  }
+
+  .archive-title {
+    color: #e1e1e1;
+  }
+
+  .light-avatar {
+    display: none !important;
+  }
+  .dark-avatar {
+    display: inline-block !important;
+  }
+}
+
+// custom
+.mugshot {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.post img, .post iframe {
+  width: 100%;
+  max-width: 100%;
+}
+img {
+  display: block;
+  margin: 0 0 1rem;
+  border-radius: 0.25rem;
+}
+@media (prefers-color-scheme: dark){
+  img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;
+  }
+}
+
+.gr_grid_book_container {
+  float: left;
+  width: 100px;
+  height: 160px;
+  padding: 2px 2px;
+  overflow: hidden;
+}
+
+.thumbnail { 
+  top:-50px; 
+  left:-35px; 
+  display:block; 
+  z-index:999; 
+  cursor: pointer; 
+  -webkit-transition-property: all; 
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
+  } 
+  
+  /*change the number below to scale to the appropriate size*/ 
+  .thumbnail:hover { 
+  transform: scale(1.05); 
+  
+  }
+  .tags {
+    float: right;
+    margin-left: 0.3rem;
+      // color: black;
+      border: 1px solid #999;
+      background-color: transparent;
+
+  }
+  .post-tags {
+    margin-left: 0.3rem;
+      // color: black;
+      border: 1px solid #999;
+      background-color: transparent;
+
+  }
+
+  @media screen and (max-width: 580px){
+    .archive-item {
+        margin-bottom: 1rem;
+    }
+  }
+//   @media screen and (max-width: 580px) {
+//     // .archive-meta {
+//     //   color: red;
+//     // }
+//     .tags{
+//       display: none;
+//     }
+// }
