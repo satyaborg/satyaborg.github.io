@@ -4,9 +4,16 @@ layout: default
 
 <div class="post">
   <h1>{{ page.title }}</h1>
-  <span class="fs-4 text-muted">{{ page.date | date: "%b %d, %Y" }}</span>  
+  <span class="text-muted">{{ page.date | date: "%d %b, %Y" }}</span>
   {% for tag in page.tags %}
-  <span class="badge post-tags">{{ tag }}</span>
+    {% assign tag_name = site.my_tags | where: "slug", tag | map: "name" | first %}
+      <a href="{{ 'tags/' | relative_url }}{{ tag }}" title="See all posts with tag '{{ tag_name }}'"><span class="badge post-tags">{{ tag_name }}</span></a>
   {% endfor %}
+  <!-- {% capture words %}
+      {{ content | number_of_words }}
+    {% endcapture %}
+    {% unless words contains "-" %}
+      {{ words | plus: 250 | divided_by: 250 | append: " min read" }}
+    {% endunless %} -->
   <div class="mt-5">{{ content }}</div>
 </div>

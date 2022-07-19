@@ -15,12 +15,14 @@ lightavatar: /assets/images/light_bauhaus_logo.png
 darkavatar: /assets/images/dark_bauhaus_logo.png
 # profile
 mugshot: /assets/images/avatar.jpg
+# resume
+resume: /assets/documents/satya_borgohain_resume.pdf
 
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
-tagline: Musings of a Polymorphic ape
+tagline: # Musings of a Polymorphic ape
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: Musings of a Polymorphic ape
+description: # Musings of a Polymorphic ape
 masthead_desc: "Research Fellow at <a href=\"https://research.monash.edu/en/persons/satya-borgohain\">Monash University</a> working on Machine Learning. When I'm not programming, you'd probably catch me—hiking, running, reading, doodling, or playing the guitar."
 
 # The full URL to your site. Note: site.github.url will be used by default.
@@ -41,11 +43,11 @@ logo: /assets/images/light_bauhaus_logo.png
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
-permalink: /:year/:month/:day/:title/
+permalink: posts/:title/ # /:year/:month/:day/:title/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: satyaborg@gmail.com
+  email: satya.borg@gmail.com
   facebook:
   github: satyaborg
   instagram: 
@@ -53,17 +55,20 @@ footer-links:
   rss: satyaborg # just type anything here for a working RSS icon
   twitter: satyaborg
 
+collections:
+  my_tags:
+    output: true
+    permalink: /tags/:slug/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: posts_by_tags
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-
-
-books:
-  - date: 20-12-2022
-    title: Three-Body Problem
-    review: Simply brilliant.
-
-collections:
-  my_tags:
-    permalink: /tag/:slug/

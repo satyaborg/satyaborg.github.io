@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% if site.tags[page.slug] %}
+    <!-- <h4>Tagged under: {{ page.name }}</h4> -->
+    <h5><span class="badge tag">{{ page.name }}</span></h5>
+    <div class="archive">
+      {% for post in site.tags[page.slug] %} {% assign currDate = post.date | date: "%Y" %} {%
+      if currDate != date %}
+      <h4 class="archive-year">{{ currDate }}</h4>
+      {% assign date = currDate %} {% endif %}
+      <div class="archive-item">
+        <div class="archive-meta">
+          <span class="post-date archive-date">{{ post.date | date: "%d %b" }}</span>
+      </div>
+        <a href="{{ post.url | relative_url }}" class="archive-title">{{ post.title }}</a>
+      </div>
+      {% endfor %}
+    </div>
+
+{% else %}
+  <p>
+    There are no posts in {{ page.name }}.
+  </p>
+{% endif %}
+
+

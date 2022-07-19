@@ -13,3 +13,28 @@ To that end, I work with machine/deep learning paradigms and am [currently a Res
 I love hiking, cycling and exploring nature in general and constantly strive to create more room for it in my life. If I'm not out doing those—you might find me playing the guitar, listening to a plethora of music/podcasts/audiobooks, reading (likely sci-fi, non-fiction and er, minds?) or most likely sketching.
 
 If you would like to chat or collaborate please feel free to shoot me an [email](mailto:satya.borg@gmail.com) or connect with me on my socials below. Where there are synergies, creativity oft follows.
+
+<br>
+
+<h4>Experience</h4>
+
+<ul>
+  <li>
+    <p><strong>Research Fellow (DevOps &amp; Machine Learning)</strong> · SoDa Labs, Monash University<br>
+2019–Present</p>
+  </li>
+  <li>
+    <p><strong>Research Assistant</strong> · SoDa Labs, Monash University<br>
+2018–2019</p>
+  </li>
+  <li>
+    <p><strong>Machine Learning Engineer</strong> · MotionAI<br>
+2018</p>
+  </li>
+  <li>
+    <p><strong>System Engineer</strong> · TCS<br>
+2015–2018</p>
+  </li>
+</ul>
+
+You can find my résumé <a href="{{ site.resume | relative_url }}">here</a>.

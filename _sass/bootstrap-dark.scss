@@ -4471,7 +4471,8 @@ fieldset:disabled .btn {
   font-size: 0.75em;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
+  color: #e1e1e1;
+  // color: var(--link);
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -9569,6 +9570,8 @@ fieldset:disabled .btn {
   a {
     color: var(--link);
     text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   }
   a:hover {
     color: var(--link-hover);
@@ -10864,7 +10867,8 @@ fieldset:disabled .btn {
     border-color: #515151;
   }
   .badge {
-    color: #fafafa;
+    // color: var(--link);
+    color: #e1e1e1;
   }
   .alert-heading {
     color: inherit;

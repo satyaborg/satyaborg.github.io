@@ -53,9 +53,9 @@ img {
   color: #212529;
 }
 
-.archive-title {
-  color: #212529;
-}
+// .archive-title {
+//   color: #212529;
+// }
 
 .highlight {
   background-color: #272822;
@@ -86,9 +86,9 @@ pre.highlight {
     color: #e1e1e1;
   }
 
-  .archive-title {
-    color: #e1e1e1;
-  }
+  // .archive-title {
+  //   color: #e1e1e1;
+  // }
 
   .light-avatar {
     display: none !important;
@@ -176,3 +176,8 @@ img {
 //       display: none;
 //     }
 // }
+.tag {
+  margin-right: 5px;
+  border: 1px solid #999;
+  background-color: transparent;
+}

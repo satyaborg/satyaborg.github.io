@@ -1,7 +1,4 @@
-<div class="tags-page">
-  <h1 class="tags-page-header">
-    Tags
-  </h1>
+<div>
 
   {% assign my_tags = site.collections | where: "label", "my_tags" | first %}
 
@@ -10,7 +7,6 @@
   {% for tag in sorted_tags %}
 
     {% assign tag_slug = tag | first %}
-    {% assign upcase_tag_slug = tag_slug | upcase %}
     {% assign no_of_posts = tag | last | size %}
 
       {% for my_tag in my_tags.docs %}
@@ -18,15 +14,8 @@
           {% assign tag_name = my_tag.name %}
         {% endif %}
       {% endfor %}
-      {% assign upcase_tag_name = tag_name | upcase %}
 
-    {% if upcase_tag_slug != "PROJECT" %}
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="{{ 'tag/' | relative_url }}{{ tag_slug }}" title="See all posts by {{ upcase_tag_name }} tag"
-      style="font-size: {{ no_of_posts  |  times: 15 | plus: 120  }}%">
-        <span>{{ upcase_tag_name }}<sup> ({{ no_of_posts }})</sup></span>
-      </a>
-    {% endif %}
-
+      <a href="{{ 'tags/' | relative_url }}{{ tag_slug }}" title="See all posts with tag '{{ tag_name }}'" style="font-size: {{ no_of_posts | times: 15 | plus: 120 }}%"><span class="badge tag">{{ tag_name }} <sup>{{ no_of_posts }}</sup></span></a>
+        
   {% endfor %}
 </div>

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: My 2020 reading list and a NLP experiment 📚
+title: My 2020 reading list and a NLP experiment
 tags: [books, nlp]
 ---
 
-So, what have you been reading lately?", asked GPT-3 to a human.
+"So, what have you been reading lately?", asked GPT-3 to a human.
 
 Earlier this year, I challenged myself to read at least 10 books (and promptly signed up for the Goodreads challenge!)
  
