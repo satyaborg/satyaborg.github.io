@@ -1,13 +1,18 @@
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <img class="thumbnail" src="{{site.baseurl}}/assets/images/art/samurai-doge.jpg">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for art in site.data.art %}
+    <div class="col art">
+        <div class="card h-100">
+            <img src="/assets/images/art/{{ art.path }}" class="card-img-top" alt="{{ art.title }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ art.title }}</h5>
+                <p class="card-text"><small class="text-muted">{{ art.date }}</small></p>
+                <a href="/assets/images/art/{{ art.path }}" class="stretched-link"></a>
+            </div>
         </div>
-        <div class="col">
-            <img class="thumbnail" src="{{site.baseurl}}/assets/images/art/samurai-doge.jpg">
-        </div>
-        <div class="col">
-            <img class="thumbnail" src="{{site.baseurl}}/assets/images/art/samurai-doge.jpg">
-        </div>
+        
     </div>
+    {% endfor %}
 </div>
+<br>
+
+<p class="text-center">© Satya Borgohain • All rights reserved</p>

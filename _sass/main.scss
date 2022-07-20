@@ -9,7 +9,7 @@ blockquote {
 
 img {
   @extend .img-fluid;
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
 }
 
 .navbar {
@@ -110,7 +110,7 @@ pre.highlight {
 }
 img {
   display: block;
-  margin: 0 0 1rem;
+  // margin: 0 0 1rem;
   border-radius: 0.25rem;
 }
 @media (prefers-color-scheme: dark){
@@ -180,4 +180,12 @@ img {
   margin-right: 5px;
   border: 1px solid #999;
   background-color: transparent;
+}
+
+.bookshelf{
+  font-size: 0.85rem;
+}
+
+.art img:hover {
+  opacity: .95;
 }

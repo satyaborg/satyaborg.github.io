@@ -6,9 +6,9 @@ tags: [books, nlp]
 
 "So, what have you been reading lately?", asked GPT-3 to a human.
 
-Earlier this year, I challenged myself to read at least 10 books (and promptly signed up for the Goodreads challenge!)
+Earlier this year, I challenged myself to read at least 10 books, and promptly signed up for the Goodreads challenge.
  
- 10 might *seem* like a modest number to the more seasoned bookworms out there but it's really not for someone like me who has fallen out of the habit. Now is the time, more than ever, when we need the antidote to the shallow, recycled, TLDRs and clickbait infested pockets of the internet.
+ 10 might *seem* like a modest number to the more seasoned bookworms out there but it's really not for someone like me who has fallen out of the habit. Now is the time, more than ever, when we need the antidote to the shallow, recycled, and clickbait infested pockets of the internet.
 
 In no particular order here are my picks for this year:
 
