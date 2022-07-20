@@ -20,8 +20,8 @@ permalink: /research/
 {% endfor %}
 </div> -->
 
-- **Borgohain, S.**, Kowadlo, G., Rawlinson, D., Bergmeir, C., Loo, K., Rangarajan, H., & Kuhlmann, L. (2020, November). Self-organising Neural Network Hierarchy. In Australasian Joint Conference on Artificial Intelligence (pp. 359-370). Springer, Cham. <a href="https://link.springer.com/chapter/10.1007/978-3-030-64984-5_28"><span class="badge post-tags">Springer</span></a> <a href="https://dl.acm.org/doi/abs/10.1007/978-3-030-64984-5_28"><span class="badge post-tags">DOI</span></a>
+- **Borgohain, S.**, Kowadlo, G., Rawlinson, D., Bergmeir, C., Loo, K., Rangarajan, H., & Kuhlmann, L. (2020, November). Self-organising Neural Network Hierarchy. In Australasian Joint Conference on Artificial Intelligence (pp. 359-370). Springer, Cham. <a href="/assets/documents/self_organising_neural_network_hierarchy.pdf"><span class="badge post-tags">PDF</span></a> <a href="https://link.springer.com/chapter/10.1007/978-3-030-64984-5_28"><span class="badge post-tags">Springer</span></a> <a href="https://dl.acm.org/doi/abs/10.1007/978-3-030-64984-5_28"><span class="badge post-tags">DOI</span></a>
 
-- O'Neill, L., Angus, S., **Borgohain, S.**, Chmait, N., & Dowe, D. L. (2021). Creating powerful and interpretable models with regression networks. arXiv preprint arXiv:2107.14417. <a href="https://arxiv.org/abs/2107.14417"><span class="badge post-tags">Arxiv</span></a>
+- O'Neill, L., Angus, S., **Borgohain, S.**, Chmait, N., & Dowe, D. L. (2021). Creating powerful and interpretable models with regression networks. arXiv preprint arXiv:2107.14417. <a href="/assets/documents/regression_networks.pdf"><span class="badge post-tags">PDF</span></a>
 
-- **Borgohain, S.**, Ackermann, K., Loaiza-Maya, R. (2021). Probabilistic Neural Network Versus Ex-Post Calibration For Prediction Uncertainty. Working paper.
+- **Borgohain, S.**, Ackermann, K., Loaiza-Maya, R. (2021). Probabilistic Neural Network Versus Ex-Post Calibration For Prediction Uncertainty. Working paper. <a href="/assets/documents/prob_net_vs_ex_post_calibration.pdf"><span class="badge post-tags">PDF</span></a>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessing Virtual environments in Jupyter Notebook
+title: Virtual environments in Jupyter Notebook
 tags: [jupyter, python]
 ---
 

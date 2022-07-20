@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My 2020 reading list and a NLP experiment
+title: 2020 reading list + NLP experiment
 tags: [books, nlp]
 ---
 
