@@ -6,16 +6,16 @@ permalink: /books/
 
 ### Read
 
-**Fiction**: Mostly sci-fi, in order of recommendation ```(novelty * writing)```.
+**Fiction**: Mostly modern and classic Sci-fi, in order of recommendation ```(novelty * writing)```.
 
 {:.bookshelf}
-| Date Read   | Title                                                         |   Published      | Author          | 
-|:------------|:--------------------------------------------------------------|-----------------:|:----------------|
-| 2022/07/08  | The Dark Forest (Remembrance of Earth’s Past, #2)             |             2015 | Liu Cixin       |
-| 2021/11/11  | Hyperion (Hyperion Cantos, #1)                                |             1990 | Dan Simmons     |
-| 2022/06/26  | The Three-Body Problem (Remembrance of Earth’s Past #1)       |             2014 | Liu Cixin       |
-| 2021/12/04  | The Fall of Hyperion (Hyperion Cantos, #2)                    |             1995 | Dan Simmons     |
-| 2021/12/30  | Project Hail Mary                                             |             2021 | Andy Weir       |
+| Title                                                         |   Published      | Author          | 
+|:--------------------------------------------------------------|-----------------:|:----------------|
+| The Dark Forest (Remembrance of Earth’s Past, #2)             |             2015 | Liu Cixin       |
+| Hyperion (Hyperion Cantos, #1)                                |             1990 | Dan Simmons     |
+| The Three-Body Problem (Remembrance of Earth’s Past #1)       |             2014 | Liu Cixin       |
+| The Fall of Hyperion (Hyperion Cantos, #2)                    |             1995 | Dan Simmons     |
+| Project Hail Mary                                             |             2021 | Andy Weir       |
 
 <!-- **Non-fiction**: Science (mostly astrophysics, computing, AI and neurosci) and nature of mind/consciousness. Unordered ```(finished == recommend)```.
 

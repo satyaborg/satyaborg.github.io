@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding Tensors in PyTorch 🔥
+title: Understanding Tensors in PyTorch
 description: In this first post, 
 tags: [pytorch, deep-learning]
 ---
