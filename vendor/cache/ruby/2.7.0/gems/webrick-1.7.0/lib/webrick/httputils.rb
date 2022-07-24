@@ -49,6 +49,8 @@ module WEBrick
       "asc"   => "text/plain",
       "avi"   => "video/x-msvideo",
       "bin"   => "application/octet-stream",
+      # added by: @satyaborg
+      "bib"   => "text/html",
       "bmp"   => "image/bmp",
       "class" => "application/octet-stream",
       "cer"   => "application/pkix-cert",

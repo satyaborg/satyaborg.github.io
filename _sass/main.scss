@@ -116,7 +116,7 @@ img {
 @media (prefers-color-scheme: dark){
   img {
     opacity: .75;
-    transition: opacity .5s ease-in-out;
+    transition: opacity .3s ease-in-out;
   }
 }
 
@@ -186,6 +186,15 @@ img {
   font-size: 0.85rem;
 }
 
-.art img:hover {
-  opacity: .95;
+// .art img:hover {
+//   opacity: .95;
+// }
+
+.card:hover{
+  transition:.15s;
+  // transform:scale(1.02);
+
+  img{
+    opacity: 0.95;
+  }
 }

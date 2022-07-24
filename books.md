@@ -6,7 +6,7 @@ permalink: /books/
 
 ### Read
 
-**Fiction**: Mostly modern and classic Sci-fi, in order of recommendation ```(novelty * writing)```.
+**Fiction**: Mostly modern and classic Sci-fi, in order of recommendation.
 
 {:.bookshelf}
 | Title                                                         |   Published      | Author          | 
