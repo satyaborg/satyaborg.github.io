@@ -11,9 +11,7 @@ permalink: /books/
 {:.bookshelf}
 | Title                                                         |   Published      | Author          | 
 |:--------------------------------------------------------------|-----------------:|:----------------|
-| The Dark Forest (Remembrance of Earth’s Past, #2)             |             2015 | Liu Cixin       |
-| Death's End (Remembrance of Earth’s Past, #3)                 |             2016 | Liu Cixin       |
-| The Three-Body Problem (Remembrance of Earth’s Past #1)       |             2014 | Liu Cixin       |
+| Remembrance of Earth's Past (The Three-Body Trilogy)           |          2014-16 | Liu Cixin       |
 | Hyperion (Hyperion Cantos, #1)                                |             1990 | Dan Simmons     |
 | The Fall of Hyperion (Hyperion Cantos, #2)                    |             1995 | Dan Simmons     |
 | Project Hail Mary                                             |             2021 | Andy Weir       |
