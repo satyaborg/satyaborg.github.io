@@ -6,14 +6,15 @@ permalink: /books/
 
 ### Read
 
-**Fiction**: Mostly modern and classic Sci-fi, in order of recommendation.
+**Fiction**: Mostly modern and classic sci-fi, in order of recommendation.
 
 {:.bookshelf}
 | Title                                                         |   Published      | Author          | 
 |:--------------------------------------------------------------|-----------------:|:----------------|
-| Remembrance of Earth's Past (The Three-Body Trilogy)           |          2014-16 | Liu Cixin       |
-| Hyperion (Hyperion Cantos, #1)                                |             1990 | Dan Simmons     |
-| The Fall of Hyperion (Hyperion Cantos, #2)                    |             1995 | Dan Simmons     |
+| Remembrance of Earth's Past (The Three-Body Trilogy)          |          2014-16 | Liu Cixin       |
+| Hyperion                                                      |             1990 | Dan Simmons     |
+| The Fall of Hyperion                                          |             1995 | Dan Simmons     |
+| Rendezvous with Rama                                          |             1973 | Arthur C. Clarke |
 | Project Hail Mary                                             |             2021 | Andy Weir       |
 
 ### Currently reading
@@ -22,9 +23,7 @@ Assorted.
 {:.bookshelf}
 | Title                                                                           |        Published | Author           |
 |:--------------------------------------------------------------------------------|-----------------:|:-----------------|
-| Rendezvous with Rama                                                            |             2000 | Arthur C. Clarke |
 | Exhalation                                                                      |             2019 | Ted Chiang       |
-| The Wind-Up Bird Chronicle                                                      |             1994 | Haruki Murakami  |
 | Dune                                                                            |             2019 | Frank Herbert    |
 | Brave New World                                                                 |             1998 | Aldous Huxley    |
 | Neuromancer                                                                     |             2000 | William Gibson   |
