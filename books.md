@@ -11,10 +11,11 @@ permalink: /books/
 {:.bookshelf}
 | Title                                                         |   Published      | Author          | 
 |:--------------------------------------------------------------|-----------------:|:----------------|
-| Remembrance of Earth's Past (The Three-Body Trilogy)          |          2014-16 | Liu Cixin       |
+| Stories of Your Life and Others                               |             2010 | Ted Chiang      |
+| Remembrance of Earth's Past (The Three-Body Trilogy)          |          2014-16 | Cixin Liu       |
 | Hyperion                                                      |             1990 | Dan Simmons     |
 | The Fall of Hyperion                                          |             1995 | Dan Simmons     |
-| Rendezvous with Rama                                          |             1973 | Arthur C. Clarke |
+| Rendezvous with Rama                                          |             1973 | Arthur C. Clarke|
 | Project Hail Mary                                             |             2021 | Andy Weir       |
 
 ### Currently reading
