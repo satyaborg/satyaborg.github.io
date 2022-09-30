@@ -14,15 +14,17 @@ lightavatar: /assets/images/light_bauhaus_logo.png
 # Avatar for dark mode site
 darkavatar: /assets/images/dark_bauhaus_logo.png
 # profile
-mugshot: /assets/images/avatar.jpg
+mugshot: /assets/images/me_white_bg.png
+# about image
+avatar: /assets/images/avatar.jpg
 # resume
 resume: /assets/documents/satya_borgohain_resume.pdf
 
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
-tagline: Distilling thoughts. # Musings of a Polymorphic ape
+tagline: Distilling thoughts & experiences. # Musings of a Polymorphic ape
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: Distilling thoughts.
+description: Distilling thoughts & experiences.
 masthead_desc: "Research Fellow at Monash University working on Machine Learning. When not thinking about thinking machines—probably hiking, reading, doodling, playing the guitar or occasionally, writing here."
 
 # The full URL to your site. Note: site.github.url will be used by default.
