@@ -26,4 +26,4 @@ permalink: /research/
 - O'Neill, L., Angus, S., **Borgohain, S.**, Chmait, N., & Dowe, D. L. (2021). Creating powerful and interpretable models with regression networks. arXiv preprint arXiv:2107.14417. <a href="https://arxiv.org/abs/2107.14417"><span class="badge post-tags">PDF</span></a> 
 <!-- <a href="/assets/documents/bibtex/regression-nets.bib"><span class="badge post-tags">BIB</span></a> -->
 
-- **Borgohain, S.**, Ackermann, K., Loaiza-Maya, R. (2021). Bayesian Neural Network Versus Ex-Post Calibration For Prediction Uncertainty. arXiv preprint arXiv:2209.14594. <a href="http://arxiv.org/abs/2209.14594"><span class="badge post-tags">PDF</span></a>
+- **Borgohain, S.**, Ackermann, K., Loaiza-Maya, R. (2022). Bayesian Neural Network Versus Ex-Post Calibration For Prediction Uncertainty. arXiv preprint arXiv:2209.14594. <a href="http://arxiv.org/abs/2209.14594"><span class="badge post-tags">PDF</span></a>
