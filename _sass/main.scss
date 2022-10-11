@@ -113,6 +113,11 @@ img {
   // margin: 0 0 1rem;
   border-radius: 0.25rem;
 }
+img:hover{
+  // cursor: pointer;
+  transition:.15s !important;
+  opacity: 0.95 !important;
+}
 @media (prefers-color-scheme: dark){
   img {
     opacity: .75;
