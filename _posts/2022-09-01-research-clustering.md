@@ -4,13 +4,10 @@ title: Finding Needles in a Paper Haystack
 tags: [nlp]
 ---
 
-#### Quick links:
-- For code: [![Open In Colab]({{site.baseurl}}/assets/images/colab-badge.svg)](https://colab.research.google.com/github/)
-- For the output visualization: [link]({{site.baseurl}}/assets/images/documentation/research-clustering/vis.html)
+[![Open In Colab]({{site.baseurl}}/assets/images/colab-badge.svg)](https://colab.research.google.com/github/satyaborg/satyaborg.github.io/blob/main/assets/notebooks/paper-haystack.ipynb)
 
-<hr/>
+[![clusters]({{site.baseurl}}/assets/images/documentation/research-clustering/clusters.png)]({{site.baseurl}}/assets/images/documentation/research-clustering/vis.html)
 
-![clusters]({{site.baseurl}}/assets/images/documentation/research-clustering/clusters.png)
 
 Given the deluge of research papers in AI, one often needs to (re)orient themselves to keep up with the latest and greatest—not to mention the “state-of-the-art”— developments, all the while exploring new and exciting research avenues.
 

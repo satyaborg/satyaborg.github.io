@@ -104,10 +104,18 @@ pre.highlight {
   margin-right: 1rem;
 }
 
-.post img, .post iframe {
-  width: 100%;
-  max-width: 100%;
-}
+// .post img {
+//   width: 100%;
+//   max-width: 100%;
+// }
+
+// .colab {
+//   width: revert !important;
+// }
+// .post iframe {
+//   width: 100%;
+//   max-width: 100%;
+// }
 img {
   display: block;
   // margin: 0 0 1rem;
