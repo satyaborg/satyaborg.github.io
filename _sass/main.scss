@@ -57,12 +57,15 @@ img {
 //   color: #212529;
 // }
 
-.highlight {
-  background-color: #272822;
-}
+// .highlight {
+//   @media (prefers-color-scheme: light){
+//     background-color: #F8F8F8;
+//   }
+// }
 
 pre.highlight {
   padding: 1rem;
+  // border-radius: 0.25rem;
 }
 
 .dark-avatar {
@@ -121,15 +124,15 @@ img {
   // margin: 0 0 1rem;
   border-radius: 0.25rem;
 }
-img:hover{
+img:hover {
   // cursor: pointer;
-  transition:.15s !important;
+  transition: 0.15s !important;
   opacity: 0.95 !important;
 }
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
   img {
-    opacity: .75;
-    transition: opacity .3s ease-in-out;
+    opacity: 0.75;
+    transition: opacity 0.3s ease-in-out;
   }
 }
 
@@ -141,46 +144,43 @@ img:hover{
   overflow: hidden;
 }
 
-.thumbnail { 
-  top:-50px; 
-  left:-35px; 
-  display:block; 
-  z-index:999; 
-  cursor: pointer; 
-  -webkit-transition-property: all; 
-  -webkit-transition-duration: 0.3s; 
-  -webkit-transition-timing-function: ease; 
-  } 
-  
-  /*change the number below to scale to the appropriate size*/ 
-  .thumbnail:hover { 
-  transform: scale(1.05); 
-  
-  }
+.thumbnail {
+  top: -50px;
+  left: -35px;
+  display: block;
+  z-index: 999;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+}
+
+/*change the number below to scale to the appropriate size*/
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+.tags {
+  float: right;
+  margin-left: 0.3rem;
+  color: #999;
+  border: 1px solid #999;
+  background-color: transparent;
+}
+.post-tags {
+  margin-left: 0.3rem;
+  color: #999;
+  border: 1px solid #999;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 580px) {
+  // .archive-item {
+  //     margin-bottom: 1rem;
+  // }
   .tags {
-    float: right;
-    margin-left: 0.3rem;
-      // color: black;
-      border: 1px solid #999;
-      background-color: transparent;
-
+    display: none;
   }
-  .post-tags {
-    margin-left: 0.3rem;
-      // color: black;
-      border: 1px solid #999;
-      background-color: transparent;
-
-  }
-
-  @media screen and (max-width: 580px){
-    // .archive-item {
-    //     margin-bottom: 1rem;
-    // }
-    .tags {
-      display: none;
-    }
-  }
+}
 //   @media screen and (max-width: 580px) {
 //     // .archive-meta {
 //     //   color: red;
@@ -191,11 +191,12 @@ img:hover{
 // }
 .tag {
   margin-right: 5px;
+  color: #999;
   border: 1px solid #999;
   background-color: transparent;
 }
 
-.bookshelf{
+.bookshelf {
   font-size: 0.85rem;
 }
 
@@ -203,11 +204,11 @@ img:hover{
 //   opacity: .95;
 // }
 
-.card:hover{
-  transition:.15s;
+.card:hover {
+  transition: 0.15s;
   // transform:scale(1.02);
 
-  img{
+  img {
     opacity: 0.95;
   }
 }

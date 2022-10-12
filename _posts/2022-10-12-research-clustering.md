@@ -86,16 +86,15 @@ So, let's briefly define our goals below:
 
 > Once we [perform](https://github.com/satyaborg/satyaborg.github.io/blob/main/assets/notebooks/paper-haystack.ipynb) the steps above, we end up with the interactive 2D clusters [here]({{site.baseurl}}/assets/images/documentation/research-clustering/vis.html).
 
-Few (personal) takeways:
+Few (personal) takeaways:
 
-- Reinforcement learning (RL) dominates a lot of the space.
-- Graph Neural Nets (GNN), adversarial attacks and 3D Pose Reconstruction are prominently featured.
+- Reinforcement learning (RL) dominates a lot of the space (~$$21\%$$).
+- Graph Neural Nets (GNN) are the second most prominently featured area (~$$5\%$$), followed by adversarial attacks, gradient-based optimization and 3D Pose Reconstruction.
 - Language models (including topic modeling) occupy a sizeable area.
 - Transformers have fully anchored itself across video, text, audio and images.
 - GANs are still in the game (although this is *likely* to change—with Diffusion models having a massive surge this year).
 - There's a surprising amount of neuro-inspired and related deep learning papers (under `neural_brain_networks`).
-- Quite a few survey papers on calibration methods for Deep neural nets
-- Causal Treatment Effects also has a notable imprint (quite surprising and interesting).
+- Quite a few papers on calibration methods for Deep neural nets.
 - Sparsity and pruning in neural nets is still an active area of research (under `pruning_sparse_training`).
 
 I encourage you to explore and find areas of *your* interest(s) among the clusters. Alternatively, feel experiment with your dataset of choice (in the notebook) to discover latent clusters.
@@ -109,10 +108,16 @@ Note:
 
 ### References
 
-- [1] Angelov, D. (2020). Top2vec: Distributed representations of topics. arXiv preprint arXiv:2008.09470.
-- [2] Bianchi, F., Terragni, S., & Hovy, D. (2021, August). Pre-training is a Hot Topic: Contextualized Document Embeddings Improve Topic Coherence. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers) (pp. 759-766).
-- [3] Grootendorst, M. (2022). BERTopic: Neural topic modeling with a class-based TF-IDF procedure. arXiv preprint arXiv:2203.05794.
-- [4] Zhao, H., Phung, D., Huynh, V., Jin, Y., Du, L., & Buntine, W. (2021). Topic modelling meets deep neural networks: A survey. arXiv preprint arXiv:2103.00498.
-- [5] Reimers, N., & Gurevych, I. (2019). Sentence-bert: Sentence embeddings using siamese bert-networks. arXiv preprint arXiv:1908.10084.
-- [6] McInnes, L., Healy, J., & Melville, J. (2018). Umap: Uniform manifold approximation and projection for dimension reduction. arXiv preprint arXiv:1802.03426.
-- [7] McInnes, L., Healy, J., & Astels, S. (2017). hdbscan: Hierarchical density based clustering. J. Open Source Softw., 2(11), 205.
+[1] Angelov, D. (2020). Top2vec: Distributed representations of topics. arXiv preprint arXiv:2008.09470.  
+
+[2] Bianchi, F., Terragni, S., & Hovy, D. (2020). Pre-training is a hot topic: Contextualized document embeddings improve topic coherence. arXiv preprint arXiv:2004.03974.  
+
+[3] Grootendorst, M. (2022). BERTopic: Neural topic modeling with a class-based TF-IDF procedure. arXiv preprint arXiv:2203.05794.  
+
+[4] Zhao, H., Phung, D., Huynh, V., Jin, Y., Du, L., & Buntine, W. (2021). Topic modelling meets deep neural networks: A survey. arXiv preprint arXiv:2103.00498.  
+
+[5] Reimers, N., & Gurevych, I. (2019). Sentence-bert: Sentence embeddings using siamese bert-networks. arXiv preprint arXiv:1908.10084.  
+
+[6] McInnes, L., Healy, J., & Melville, J. (2018). Umap: Uniform manifold approximation and projection for dimension reduction. arXiv preprint arXiv:1802.03426.  
+
+[7] McInnes, L., Healy, J., & Astels, S. (2017). hdbscan: Hierarchical density based clustering. J. Open Source Softw., 2(11), 205.

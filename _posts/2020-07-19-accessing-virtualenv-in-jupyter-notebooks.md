@@ -10,7 +10,7 @@ One of the very first things when starting a new Python project should be creati
 
 Let's start by creating a new virtual environment called `venv` for Python and activate the same as follows,
 
-```bash
+```shell
 virtualenv -p python3 venv
 source venv/bin/activate
 ```
@@ -21,7 +21,7 @@ Once we are inside the `virtualenv` we can now install all our dependencies via 
 
 Now for the interesting bit: To make this `venv` available as a kernel in our Jupyter notebooks, we simply need to install `ipykernel` within the virtual environment and then *register* the same as follows,
 
-```bash
+```vim
 pip install ipykernel
 ipython kernel install --user --name=<foo-kernel>
 ```

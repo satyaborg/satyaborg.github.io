@@ -63,7 +63,6 @@ print(torch.FloatTensor(1), '->', torch.FloatTensor(1).dtype)
 print(torch.Tensor(1), '->', torch.Tensor(1).dtype)
 ```
 ```
-
     tensor(1) -> torch.int64
     tensor([1.5283e-35]) -> torch.float32
     tensor([1.5283e-35]) -> torch.float32
@@ -110,10 +109,6 @@ The notion of **Rank** is very important when dealing with tensors. In a rigorou
 torch.empty([2,3,4])
 ```
 ```
-
-
-
-
     tensor([[[1.3515e-36, 0.0000e+00, 6.8664e-44, 7.9874e-44],
              [6.3058e-44, 6.7262e-44, 7.7071e-44, 6.3058e-44],
              [6.8664e-44, 7.1466e-44, 1.1771e-43, 6.8664e-44]],
@@ -121,7 +116,6 @@ torch.empty([2,3,4])
             [[7.0065e-44, 8.1275e-44, 6.7262e-44, 7.5670e-44],
              [8.1275e-44, 7.1466e-44, 7.0065e-44, 6.4460e-44],
              [6.8664e-44, 7.9874e-44, 7.5670e-44, 7.1466e-44]]])
-
 ```
 
 Similarly, `torch.ones()` is for creating a tensor with all the values as ones.
@@ -131,7 +125,6 @@ torch.ones([2,3,4])
 ```
 
 ```
-
     tensor([[[1., 1., 1., 1.],
              [1., 1., 1., 1.],
              [1., 1., 1., 1.]],
@@ -157,7 +150,6 @@ print(y.dtype)
 ```
 
 ```
-
     torch.float32
     torch.int32
 ```
@@ -172,9 +164,7 @@ Now let's check `torch.tensor()`'s default datatype,
 print(torch.Tensor([1,2]).dtype)
 ```
 ```
-
     torch.float32
-
 ```
 
 Another cool thing is that if we just use a *dot* at the end of a number,
@@ -186,7 +176,6 @@ print(torch.tensor([1.,2]).dtype)
 print(torch.tensor([1, 2]).dtype)
 ```
 ```
-
     torch.float32
     torch.int64
 ```
@@ -199,9 +188,7 @@ Next up, we can check the sizes or shapes of tensors with
 torch.tensor([1,1]).size()
 ```
 ```
-
     torch.Size([2])
-
 ```
 
 > Note : Both `.size()` and `.shape` works.
@@ -223,8 +210,6 @@ Now let's generate a tensor with `torch.rand()`, which will be composed of numbe
 torch.rand([3,5])
 ```
 ```
-
-
     tensor([[0.4294, 0.8854, 0.5739, 0.2666, 0.6274],
             [0.2696, 0.4414, 0.2969, 0.8317, 0.1053],
             [0.2695, 0.3588, 0.1994, 0.5472, 0.0062]])
@@ -246,7 +231,6 @@ print((r1 - r2) * torch.rand(a, b) + r2)
 print(torch.FloatTensor([a, b]).uniform_(r1, r2))
 ```
 ```
-
     tensor([[0.9953, 0.2270]])
     tensor([-0.5995, -0.0875])
 ```
@@ -265,8 +249,6 @@ We can get a copy of the entire tensor like so,
 z[:,:,:]
 ```
 ```
-
-
     tensor([[[0.5898, 0.7489, 0.3316, 0.0840, 0.3186, 0.7509, 0.2768, 0.4062],
              [0.4274, 0.6052, 0.3167, 0.0132, 0.9384, 0.7179, 0.9822, 0.8424],
              [0.7407, 0.6645, 0.7467, 0.4408, 0.3952, 0.2945, 0.7976, 0.9999],
@@ -281,7 +263,6 @@ z[:,:,:]
              [0.9218, 0.3830, 0.0900, 0.1459, 0.8806, 0.6364, 0.6556, 0.3507],
              [0.7947, 0.8174, 0.7804, 0.9511, 0.3414, 0.0311, 0.4173, 0.0569],
              [0.7231, 0.4320, 0.8551, 0.9223, 0.3884, 0.5857, 0.5061, 0.5856]]])
-
 ```
 
 We can specify indices for each dimension of the tensor to get the specific element as follows,
@@ -291,12 +272,7 @@ We can specify indices for each dimension of the tensor to get the specific elem
 z[0,0,1]
 ```
 ```
-
-
-
-
     tensor(0.7489)
-
 ```
 
 We can also slice the tensors along a specific dimension as follows,
@@ -305,15 +281,10 @@ We can also slice the tensors along a specific dimension as follows,
 z[1,:,:]
 ```
 ```
-
-
-
-
     tensor([[0.5355, 0.6715, 0.8545, 0.1427, 0.5750, 0.3447, 0.2765, 0.4843],
             [0.3656, 0.5375, 0.0905, 0.6682, 0.1834, 0.0282, 0.0847, 0.8121],
             [0.5522, 0.7084, 0.9103, 0.8601, 0.5659, 0.1395, 0.5961, 0.4317],
             [0.7865, 0.6097, 0.0239, 0.6577, 0.6302, 0.1751, 0.2286, 0.8689]])
-
 ```
 
 In case you forgot how slicing worked in python, here's a quick refresher :
@@ -365,7 +336,6 @@ z = torch.rand(5);
 z, z.size()
 ```
 ```
-
     (tensor([0.9008, 0.1170, 0.2945, 0.1563, 0.6122]), torch.Size([5]))
 ```
 
@@ -385,7 +355,6 @@ z = torch.rand(16,16);
 z.size()
 ```
 ```
-
     torch.Size([16, 16])
 ```
 
@@ -413,7 +382,6 @@ z = torch.rand(16,16,16);
 z.size()
 ```
 ```
-
     torch.Size([16, 16, 16])
 ```
 
