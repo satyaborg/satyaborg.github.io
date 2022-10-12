@@ -74,8 +74,8 @@ For this experiment, I decided to go with papers [accepted](https://proceedings.
 
 So, let's briefly define our goals below:
 - We need to obtain a relevant dataset of papers and concatenate their `title` +  `abstract`, which will serve as our corpus (of size `N`)
-- For paper discovery (à la BERTopic):
-    - Use a pre-trained language model (for faster inference: MiniLM or `all-MiniLM-L6-v2` with SentenceTransformers [5]) to embed documents into a `N x M` dimensional vector
+- For topic/cluster discovery (à la BERTopic):
+    - Use a pre-trained language model (for faster inference: MiniLM or `all-MiniLM-L6-v2` with SentenceTransformers [5]) to embed documents into a `N x M` dimensional matrix
     - Use UMAP [6] to obtain a low-dimensional projection, and
     - HDSCAN [7] for clustering
 
@@ -94,10 +94,10 @@ Few (personal) takeaways:
 - Transformers have fully anchored itself across video, text, audio and images.
 - GANs are still in the game (although this is *likely* to change—with Diffusion models having a massive surge this year).
 - There's a surprising amount of neuro-inspired and related deep learning papers (under `neural_brain_networks`).
-- Quite a few papers on calibration methods for Deep neural nets.
+- Quite a few papers on calibration methods for deep neural nets.
 - Sparsity and pruning in neural nets is still an active area of research (under `pruning_sparse_training`).
 
-I encourage you to explore and find areas of *your* interest(s) among the clusters. Alternatively, feel experiment with your dataset of choice (in the notebook) to discover latent clusters.
+I encourage you to explore and find areas of *your* interest(s) among the clusters. Alternatively, feel free to experiment with your dataset of choice (in the notebook) to discover latent clusters.
 
 Note:
 
