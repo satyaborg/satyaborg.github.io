@@ -2,6 +2,7 @@
 layout: post
 title: Finding Needles in a Paper Haystack
 tags: [nlp]
+image: assets/images/documentation/research-clustering/clusters.png
 ---
 
 [![Open In Colab]({{site.baseurl}}/assets/images/colab-badge.svg)](https://colab.research.google.com/github/satyaborg/satyaborg.github.io/blob/main/assets/notebooks/paper-haystack.ipynb)
