@@ -14,7 +14,12 @@ img {
 
 .navbar {
   margin-bottom: 2rem;
-  border-bottom: 0.125rem solid hsl(0, 0%, 30%);
+  @media (prefers-color-scheme: dark){
+    border-bottom: 0.125rem solid hsl(0, 0%, 30%);
+  }
+  @media (prefers-color-scheme: light){
+    border-bottom: 0.125rem solid hsl(0, 0%, 90%);
+  }
 }
 
 .archive-year {
@@ -167,7 +172,7 @@ img:hover {
   background-color: transparent;
 }
 .post-tags {
-  margin-left: 0.3rem;
+  // margin-left: 0.3rem;
   color: #999;
   border: 1px solid #999;
   background-color: transparent;

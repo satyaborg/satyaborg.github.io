@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finding Needles in a Paper Haystack
-tags: [nlp]
+tags: [nlp, deep-learning]
 image: https://satyaborg.com/assets/images/documentation/research-clustering/clusters.png
 ---
 
@@ -11,7 +11,7 @@ image: https://satyaborg.com/assets/images/documentation/research-clustering/clu
   {{site.baseurl}}
 {% endcapture %}
 
-{% include clickable_image.html baseurl=baseurl url="assets/images/documentation/research-clustering/clusters.png" href="assets/images/documentation/research-clustering/vis.html" description="Click image for the interactive version." %}
+{% include clickable_image.html baseurl=baseurl url="assets/images/documentation/research-clustering/clusters.png" href="assets/images/documentation/research-clustering/vis.html" description="Click on image for the interactive version." %}
 
 Given the deluge of research papers in AI, one often needs to (re)orient themselves to keep up with the latest and greatest—not to mention the “state-of-the-art”— developments, all the while exploring new and exciting research avenues.
 
