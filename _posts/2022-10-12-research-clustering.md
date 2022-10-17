@@ -5,7 +5,7 @@ tags: [nlp, deep-learning]
 image: https://satyaborg.com/assets/images/documentation/research-clustering/clusters.png
 ---
 
-[![Open In Colab]({{site.baseurl}}/assets/images/colab-badge.svg)](https://colab.research.google.com/github/satyaborg/satyaborg.github.io/blob/main/assets/notebooks/paper-haystack.ipynb)
+{% include open_in_badges.html github_url="https://github.com/satyaborg/satyaborg.github.io/blob/main/assets/notebooks/paper-haystack.ipynb" colab_url="https://colab.research.google.com/github/satyaborg/satyaborg.github.io/blob/main/assets/notebooks/paper-haystack.ipynb" %}
 
 {% capture baseurl %}
   {{site.baseurl}}
