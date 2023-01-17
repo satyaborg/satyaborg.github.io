@@ -25,7 +25,7 @@ tagline: Distilling thoughts. # Musings of a Polymorphic ape
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
 description: Distilling thoughts.
-masthead_desc: "Research Fellow at Monash University working on Machine Learning. When not thinking about thinking machines—probably hiking, reading, doodling, playing the guitar or occasionally, writing here."
+masthead_desc: "Research Fellow at Monash University working on Machine Learning. When not thinking about thinking machines—probably hiking, <a href='https://www.goodreads.com/satyaborg'>reading</a>, <a href='https://satyaborg.com/art'>doodling</a>, playing the guitar or occasionally, writing here."
 
 # The full URL to your site. Note: site.github.url will be used by default.
 url: satyaborg.com

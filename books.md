@@ -4,9 +4,7 @@ title: Bookshelf
 permalink: /books/
 ---
 
-### Read
-
-**Fiction**: Mostly modern and classic sci-fi, in order of recommendation.
+**Fiction**: Mostly modern and classic sci-fi.
 
 {:.bookshelf}
 | Title                                                         |   Published      | Author          | 
@@ -18,6 +16,18 @@ permalink: /books/
 | The Fall of Hyperion                                          |             1995 | Dan Simmons     |
 | Rendezvous with Rama                                          |             1973 | Arthur C. Clarke|
 | Project Hail Mary                                             |             2021 | Andy Weir       |
+
+
+
+<!-- **Non-Fiction**:
+
+{:.bookshelf}
+| Title                                                         |   Published      | Author          | 
+|:--------------------------------------------------------------|-----------------:|:----------------|
+|  A Brief History of Time                                      |             1998 | Stephen Hawking |
+| The Theory of Everything                                      |             2002 | Stephen Hawking |
+| The Courage To Be Disliked                                    |             2013 | Ichiro Kishimi  |
+| Deep Work                                                     |             2016 | Cal Newport     | -->
 
 You can find me on Goodreads [here](https://www.goodreads.com/satyaborg).
 

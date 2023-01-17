@@ -1,9 +1,9 @@
 - name: Research
   link: /research/
-- name: Bookshelf
-  link: /books/
-- name: Art
-  link: /art/
+# - name: Bookshelf
+  # link: /books/
+# - name: Art
+#   link: /art/
 # - name: Hikes
 #   link: /hikes/
 - name: Tags
