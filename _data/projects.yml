@@ -1,0 +1,28 @@
+- title: DiscourseNow
+  path: nmap.png
+  url: https://ialab.it.monash.edu/discourse/now
+  description: A narrative extraction and visualization tool for news using transformers
+- title: Textstellar
+  path: textstellar.png
+  url: https://textstellar.com
+  description: Semantic capability mapping with text (e.g. research papers)
+- title: IP Observatory
+  path: ip-obs.png
+  url: https://ip-observatory.org/
+  description: A platform which can remotely observe, in real time, the quality of the internet at any location on the globe
+- title: ForumBrain
+  path: forum-brain.png
+  url: https://forumbrain.monash.edu
+  description: An automated online forum grading platform for units, leveraging NLP
+- title: The Melbourne Experiment
+  path: melb-exp.png
+  url: https://melb-exp.com/
+  description: Interdiscplinary project for studying post-COVID-19 urban recovery and renewal
+- title: Pose Estimation & Detection
+  path: pose.png
+  url: https://github.com/satyaborg/pose-estimation-detection
+  description: Human Activity Recognition (HAR) using OpenPose on Raspberry Pi
+- title: PyTorch Starter
+  path: pytorch-template.png
+  url: https://github.com/satyaborg/pytorch-template
+  description: A minimal PyTorch template for deep learning projects

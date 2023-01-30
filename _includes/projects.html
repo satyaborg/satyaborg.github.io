@@ -1,0 +1,20 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for project in site.data.projects %}
+    <div class="col art">
+        <div class="card h-100">
+            <img src="/assets/images/projects/{{ project.path }}" class="card-img-top" alt="{{ project.title }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ project.title }}</h5>
+                <!-- <p class="card-text">{{ project.description }}</p> -->
+                <p class="card-text"><small class="text-muted">{{ project.description }}</small></p>
+                <a href="{{ project.url }}" class="stretched-link"></a>
+                <!-- {% for skill in project.skills %}
+                    <span class="badge bg-primary">{{ skill }}</span>
+                {% endfor %} -->
+            </div>
+        </div>
+        
+    </div>
+    {% endfor %}
+</div>
+<br>
